@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let cliente = 1;
+        const num_mesas = parseInt(prompt('Cuantas mesas desea?'));
+
+        if (num_mesas <= 200) {
+            while (cliente <= num_mesas) {
+
+                console.log('Bienvenid@ a mi café! Su mesa es la ' + cliente);
+                cliente++;
+            }
+        } else {
+            alert('No tenemos tantas mesas');
+        }
+    </script>
+</body>
+
+</html>
