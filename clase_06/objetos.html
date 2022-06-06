@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let miAuto = {};
+
+        
+        miAuto.marca = 'Toyota';
+        miAuto.año =2022;
+        miAuto.nuevo =true;
+
+        let propertyKey = 'modelo';        
+        miAuto[propertyKey]='Rav 4';
+        
+        let anotherPropertyKey = 'precio';
+        miAuto[anotherPropertyKey] = 25000000
+
+        let nextProperty = 'color'
+        miAuto[nextProperty] ='Blanco';
+
+        // for (let auto in miAuto){
+        //     console.log(auto);
+        // }
+
+        for (let auto in miAuto){
+            console.log(auto +': '+miAuto[auto]);
+        }
+
+
+        
+    </script>
+</body></html>
