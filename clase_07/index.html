@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="source">
+    <p>
+      Texto1
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima aspernatur eaque fuga rem necessitatibus minus et, consequuntur sed reprehenderit tempore tempora magni repellat doloremque enim quibusdam cum
+      expedita consequatur aut.
+    </p>
+
+  </div>
+
+  <div id="destination">
+    <p>
+      Texto 2
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem magni, illum dolores quam accusantium ex, architecto quasi a iusto quod repellendus obcaecati eum ipsa eveniet, sed dolorem error. Rem, adipisci.
+    </p>
+
+  </div>
+
+  <script>
+    // let variable1 = document.querySelector('#source').textContent;
+    // let variable2 = document.querySelector('#destination').textContent;
+
+    // document.querySelector('#source').textContent = variable2;
+    // document.querySelector('#destination').textContent = variable1;
+
+     let parrafo1 = document.querySelector('#source').innerHTML;
+     let parrafo2 = document.querySelector('#destination').innerHTML;
+
+     document.querySelector('#source').innerHTML = parrafo2;
+     document.querySelector('#destination').innerHTML = parrafo1;
+
+
+
+  </script>
+</body>
+
+</html>
